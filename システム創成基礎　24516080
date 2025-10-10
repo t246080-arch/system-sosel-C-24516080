@@ -1,0 +1,16 @@
+/**ハリウッドザコシショウ**/
+
+#include <stdio.h>
+/**mathの場合もある**/
+
+int main()
+{
+    /**名前を付けて数字を保存しておく**/
+    int dante = 10;
+    printf("Dante number %d \n", dante);
+    dante = dante/2;
+    /**printfは""の間に入力する**/
+    printf("Dante number %d", dante);
+    
+    return 0;
+}
