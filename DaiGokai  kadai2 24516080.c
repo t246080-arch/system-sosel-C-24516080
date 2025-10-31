@@ -2,25 +2,33 @@
 
 int main()
 {
-    int k;
+    int e;
+    int m;
+    int all;
     
-    printf("How many points?");
+    printf("How many math points?");
     
-    scanf("%d", &k);
+    scanf("%d", &m);
     
-    if (k < 60)
+    printf("How many english points?");
+    
+    scanf("%d", &e);
+    
+    all = m + e;
+    
+    if (all < 120)
     {
-        printf("%d? you are idiot", k);
+        printf("%d? you are idiot", all);
     }
     
-    else if (60 <= k && k < 80)
+    else if (120 <= all && all < 160)
     {
-        printf("%d? Hmm..you are normal", k);
+        printf("%d? Hmm..you are normal", all);
     }
 
     else 
     {
-        printf("%d?! you are cool", k);
+        printf("%d?! you are cool", all);
     }
     
     return 0;
