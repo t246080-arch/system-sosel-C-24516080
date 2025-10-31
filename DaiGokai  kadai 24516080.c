@@ -14,7 +14,7 @@ int main(void)
     
     large = small + diff;
     
-    printf("大文字は%c　小文字は%c\n", small, large);
+    printf("小文字は%c　大文字は%c\n", small, large);
 
     return 0;
 }
