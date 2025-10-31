@@ -18,17 +18,17 @@ int main()
     
     if (all < 120)
     {
-        printf("%d? you are idiot", all);
+        printf("ALL point is %d? you are idiot", all);
     }
     
     else if (120 <= all && all < 160)
     {
-        printf("%d? Hmm..you are normal", all);
+        printf("ALL point is %d? Hmm..you are normal", all);
     }
 
     else 
     {
-        printf("%d?! you are cool", all);
+        printf("ALL point is %d?! you are cool", all);
     }
     
     return 0;
